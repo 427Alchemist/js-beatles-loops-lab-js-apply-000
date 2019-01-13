@@ -30,12 +30,9 @@ function johnLennonFacts(array) {
 
 function iLoveTheBeatles(num) {
   var emptyArray = [];
-  if (num < 10){
+  var i = 0;
     do {emptyArray.push("I Love the Beatles!");
-      num++;
-    } while (num < 10);
-  } else {
-    return emptyArray;
-  }
+      i++;
+    } while (i != 17 && < 7);
   return emptyArray;
 }
